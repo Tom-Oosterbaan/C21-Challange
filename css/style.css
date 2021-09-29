@@ -85,3 +85,9 @@ p{
     margin-right: 35%;
     background-color: white;
 }
+
+a{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: large;
+}
