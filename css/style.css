@@ -1,93 +1,104 @@
 
 body{
-    background-color: lightgray;
-}
-
-h1{
+    margin: 0;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+  }
+  
+  .achtergrondkleur{
+    background-color: darkslateblue;
+    margin: 0 20% 0 20%;
+    padding: 10px;
+  }
+  
+  h1{
     font-family: fantasy;
     text-align: center;
-}
-
-.p1{
-    margin-top: 100px;
-}
-
-.p2{
-    margin-top: 60px;
-}
-
-p{
-    font-family: sans-serif;
-    text-align: center;
-    font-size: large;
-}
-
-.top5{
-    text-align: center;
-    list-style-position: inside;
-}
-
-.plaatje{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 30%;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px black;
-}
-
-.plaatje2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-}
-
-.plaatje3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-    border-radius: 10px;
-}
-
-.top5{
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
-    margin-left: 40%;
-    background-color: white;
-}
-
-.lijst{
-    display: block;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
-    margin-left: 35%;
-    margin-right: 35%;
-    background-color: white;
-}
-
-.box{
-    display: block;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
-    margin-left: 35%;
-    margin-right: 35%;
-    background-color: white;
-}
-
-a{
-    font-family: sans-serif;
-    text-align: center;
-    font-size: large;
-}
+    color: black;
+    font-size: 2.5em;
+  }
+  
+  .p1{
+      margin-top: 100px;
+  }
+  
+  .p2{
+      margin-top: 60px;
+  }
+  
+  p{
+      font-family: sans-serif;
+      text-align: center;
+      font-size: large;
+  }
+  
+  .top5{
+      text-align: center;
+      list-style-position: inside;
+  }
+  
+  .plaatje{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 30%;
+      border-radius: 20px;
+      box-shadow: 10px 10px 20px black;
+  }
+  
+  .plaatje2{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 50%;
+  }
+  
+  .plaatje3{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 50%;
+      border-radius: 10px;
+  }
+  
+  .top5{
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px black;
+      margin-left: 40%;
+      background-color: white;
+  }
+  
+  .lijst{
+      display: block;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px black;
+      margin-left: 25%;
+      margin-right: 25%;
+      background-color: white;
+  }
+  
+  .box{
+      display: block;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px black;
+      margin-left: 25%;
+      margin-right: 25%;
+      background-color: white;
+  }
+  
+  a{
+      font-family: sans-serif;
+      text-align: center;
+      font-size: large;
+  }
