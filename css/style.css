@@ -31,6 +31,7 @@ body{
       font-family: sans-serif;
       text-align: center;
       font-size: large;
+      color: white;
   }
   
   .top5{
@@ -74,8 +75,8 @@ body{
       box-shadow: -5px -5px 20px rgb(28, 25, 230), 5px 5px 10px rgb(183, 0, 255);
       margin-left: 25%;
       margin-right: 25%;
-      background-color: white;
-  }
+      background-color: black;
+}
   
   .box{
       display: block;
@@ -85,11 +86,15 @@ body{
       box-shadow: -5px -5px 20px rgb(28, 25, 230), 5px 5px 10px rgb(183, 0, 255);
       margin-left: 25%;
       margin-right: 25%;
-      background-color: white;
+      background-color: black;
   }
   
   a{
       font-family: sans-serif;
       text-align: center;
       font-size: large;
+}
+
+li{
+  color: white;
 }
