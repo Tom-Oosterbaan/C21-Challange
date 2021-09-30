@@ -66,16 +66,6 @@ body{
       box-shadow: 0px 0px 20px white;
   }
   
-  .top5{
-      display: inline-block;
-      margin: 20px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 10px 10px 20px black;
-      margin-left: 40%;
-      background-color: white;
-  }
-  
   .lijst{
       display: block;
       margin: 20px;
@@ -102,4 +92,4 @@ body{
       font-family: sans-serif;
       text-align: center;
       font-size: large;
-  }
+}
