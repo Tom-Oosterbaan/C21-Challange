@@ -7,15 +7,15 @@ body{
   }
   
   .achtergrondkleur{
-    background-color: darkslateblue;
-    margin: 0 20% 0 20%;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0 25% 0 25%;
     padding: 10px;
   }
   
   h1{
     font-family: fantasy;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 2.5em;
   }
   
@@ -42,10 +42,10 @@ body{
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 30%;
-      height: 30%;
+      width: 50%;
+      height: 50%;
       border-radius: 20px;
-      box-shadow: 10px 10px 20px black;
+      box-shadow: 0px 0px 20px white;
   }
   
   .plaatje2{
@@ -60,9 +60,10 @@ body{
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
-      height: 50%;
+      width: 80%;
+      height: 80%;
       border-radius: 10px;
+      box-shadow: 0px 0px 20px white;
   }
   
   .top5{
@@ -80,7 +81,7 @@ body{
       margin: 20px;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 10px 10px 20px black;
+      box-shadow: -5px -5px 20px rgb(28, 25, 230), 5px 5px 10px rgb(183, 0, 255);
       margin-left: 25%;
       margin-right: 25%;
       background-color: white;
@@ -91,7 +92,7 @@ body{
       margin: 20px;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 10px 10px 20px black;
+      box-shadow: -5px -5px 20px rgb(28, 25, 230), 5px 5px 10px rgb(183, 0, 255);
       margin-left: 25%;
       margin-right: 25%;
       background-color: white;
