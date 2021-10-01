@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, green, yellow, orange, red);
 	background-size: 800% 800%;
 	animation: gradient 20s ease infinite;
 	height: 100vh;
@@ -42,14 +42,9 @@ body {
       font-family: sans-serif;
       text-align: center;
       font-size: large;
-      color: white;
+      color: black;
   }
-  
-  .top5{
-      text-align: center;
-      list-style-position: inside;
-  }
-  
+
   .plaatje{
       display: block;
       margin-left: auto;
@@ -57,7 +52,7 @@ body {
       width: 50%;
       height: 50%;
       border-radius: 20px;
-      box-shadow: 10px 10px 20px white;
+      box-shadow: 10px 10px 20px black;
   }
   
   .plaatje2{
@@ -75,7 +70,7 @@ body {
       width: 80%;
       height: 80%;
       border-radius: 10px;
-      box-shadow: 10px 10px 20px white;
+      box-shadow: 10px 10px 20px black;
   }
     
   .box{
@@ -85,8 +80,8 @@ body {
       border-radius: 10px;
       margin-left: 25%;
       margin-right: 25%;
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-      box-shadow: 10px 10px 20px white;
+      background-color: white;
+      box-shadow: 10px 10px 20px black;
 }
   a{
       font-family: sans-serif;
@@ -95,10 +90,21 @@ body {
 }
 
 li{
-  color: white;
+  color: black;
   margin-left: 5%;
+  font-family: sans-serif;
 }
 
 .tekst{
     text-align: left;
+}
+
+h2{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ol{
+    margin-left: 5%;
 }
