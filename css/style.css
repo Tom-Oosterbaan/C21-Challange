@@ -1,6 +1,6 @@
 body {
 	background: linear-gradient(-45deg, green, yellow, orange, red);
-	background-size: 800% 800%;
+	background-size: 820% 820%;
 	animation: gradient 20s ease infinite;
 	height: 100vh;
     margin: 0;
@@ -18,85 +18,17 @@ body {
 	}
 }
 
-  .achtergrondkleur{
+.achtergrondkleur{
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0 15% 0 15%;
     padding: 10px;
   }
 
-  h1{
+h1{
     font-family: fantasy;
     text-align: center;
     color: white;
     font-size: 2.5em;
-  }
-  
-  .p1{
-      margin-top: 100px;
-  }
-  
-  .p2{
-      margin-top: 60px;
-  }
-  
-  p{
-      font-family: sans-serif;
-      text-align: center;
-      font-size: large;
-      color: black;
-  }
-
-  .plaatje{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      height: 50%;
-      border-radius: 20px;
-      box-shadow: 10px 10px 20px black;
-  }
-  
-  .plaatje2{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-      height: 50%;
-  }
-  
-  .plaatje3{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 80%;
-      height: 80%;
-      border-radius: 10px;
-      box-shadow: 10px 10px 20px black;
-  }
-    
-  .box{
-      display: block;
-      margin: 20px;
-      padding: 20px;
-      border-radius: 10px;
-      margin-left: 25%;
-      margin-right: 25%;
-      background-color: white;
-      box-shadow: 10px 10px 20px black;
-}
-  a{
-      font-family: sans-serif;
-      text-align: center;
-      font-size: large;
-}
-
-li{
-  color: black;
-  margin-left: 5%;
-  font-family: sans-serif;
-}
-
-.tekst{
-    text-align: left;
 }
 
 h2{
@@ -107,4 +39,58 @@ h2{
 
 ol{
     margin-left: 5%;
+}
+
+li{
+    color: black;
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+.box{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    box-shadow: 10px 10px 20px black;
+}
+
+.plaatje{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.plaatje2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.plaatje3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
 }
